@@ -1,0 +1,9 @@
+.slider-pictures {
+  height: 100vh;
+  width: 106%;
+
+  /*background-image: url("../assets/MainPageBackground.png");*/
+}
+img {
+  width: 100%;
+}
