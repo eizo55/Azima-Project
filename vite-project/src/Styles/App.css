@@ -1,0 +1,30 @@
+body {
+  background-color: #ffedff;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+body > #root {
+  width: 100%;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
+  padding: 0 15rem 10rem;
+}
+
+.create-group {
+  width: 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.event-description {
+  align-items: center;
+  padding: 2rem 10rem;
+  color: rgb(86, 17, 113);
+}
+.event-description h3 {
+  font-weight: 700;
+}
+
+.event-description p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.others {
+  padding: 1rem 10rem;
+  color: rgb(86, 17, 113);
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+}
+
+.others p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.others p .bold {
+  font-weight: 700;
+}
+
+.star-container {
+  position: absolute;
+  right: 5rem;
+  display: flex;
+  font-size: 5rem;
+}
+.star-icon {
+  width: 5rem;
+}
+.star-container p {
+  margin-right: 4rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
+}

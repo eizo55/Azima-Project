@@ -1,0 +1,8 @@
+.checkbox {
+  display: inline;
+  margin-right: 10rem;
+}
+.checkbox label {
+  font-size: large;
+  margin-bottom: 3rem;
+}

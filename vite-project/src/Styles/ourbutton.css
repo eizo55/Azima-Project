@@ -1,0 +1,76 @@
+.button {
+  padding: 1.5rem 3rem;
+  border-radius: 10px;
+  border: 1px solid rgb(86, 17, 113);
+  background-color: rgb(86, 17, 113);
+  color: white;
+  transition: all 0.3s ease-in-out;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.small {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5rem;
+}
+.thin {
+  padding: 0.5rem 3rem;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: rgb(86, 17, 113);
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: rgb(89, 43, 107);
+  cursor: default;
+  color: rgb(231, 216, 252);
+}
+
+.transparent {
+  background-color: white;
+  color: rgb(86, 17, 113);
+}
+
+.transparent:hover {
+  background-color: rgb(86, 17, 113);
+  color: white;
+}
+
+.transparent:disabled {
+  background-color: rgb(231, 216, 252);
+  color: rgb(89, 43, 107);
+  cursor: default;
+}
+
+.alert {
+  background-color: #6b0101;
+  border-color: #6b0101;
+}
+
+.alert:hover {
+  background-color: transparent;
+  color: #6b0101;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  padding: 4rem 0;
+}
+.left button {
+  margin-left: 20rem;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  padding: 4rem 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}

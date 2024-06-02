@@ -1,0 +1,138 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.slider-label {
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: rgba(86, 17, 113, 1);
+  gap: 1rem;
+}
+.slider-label img {
+  padding-top: 1rem;
+}
+
+.filter-container {
+  position: relative;
+}
+
+.filter-dropdown {
+  position: absolute;
+  top: 2.5rem; /* Adjust based on the height of the filter image */
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 200px; /* Adjust width as needed */
+  z-index: 2;
+}
+
+.filter-dropdown-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.filterDropDown__item {
+  display: flex;
+  flex-direction: row; /* Changed to column to stack radio and checkbox groups */
+  gap: 2rem;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.radio-group input[type="radio"],
+.radio-group input[type="checkbox"] {
+  accent-color: #561171; /* Change the accent color as needed */
+  transform: scale(1.2);
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  color: rgba(86, 17, 113, 1);
+  font-weight: 800;
+  padding-bottom: 20rem;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+.event-slider {
+  width: 100%;
+  position: relative;
+}
+
+.image-container-hover {
+  position: relative;
+}
+.image-container-hover:hover .event-image {
+  filter: brightness(0.6) blur(4px);
+}
+
+.overlay-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1.5rem;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.image-container-hover:hover .overlay-hover {
+  opacity: 1;
+}
+
+.hovered-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  height: 100%;
+}
+.hovered-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1.4rem;
+  font-weight: 700;
+  color: #ffedff;
+  height: 100%;
+}
+
+.hovered-texts p {
+  margin-bottom: 0;
+}
+
+.hovered-items img {
+  width: 3.5rem;
+}

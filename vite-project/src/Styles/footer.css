@@ -1,0 +1,57 @@
+footer {
+  padding: 20px;
+  background-color: rgb(86, 17, 113);
+  position: relative;
+  bottom: 0;
+  right: auto;
+  left: auto;
+  width: 100%;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logofooter {
+  width: 35%; /* Set the logo to take up 25% of the footer width */
+  max-width: 250px; /* Add a maximum width to prevent it from getting too large */
+  margin-left: 25px;
+}
+
+.resources,
+.discover,
+.download {
+  text-align: left;
+}
+.footer-header {
+  color: #ffedff;
+  font-weight: bold;
+}
+.footer-header,
+.clickable {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.clickable {
+  text-decoration: none;
+  color: #ffedff;
+  font-weight: lighter;
+}
+
+a:hover {
+  color: #000;
+}
+
+.google,
+.appstore {
+  width: 80px; /* Adjust the size as needed */
+  margin-top: 10px; /* Add space between labels and images */
+}
+
+.google,
+.appstore {
+  width: 100px;
+}

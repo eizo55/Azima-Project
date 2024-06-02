@@ -1,0 +1,20 @@
+.dropdown {
+  background-color: rgb(86, 17, 113);
+  color: White;
+  border-radius: 1rem;
+  text-align: left;
+  width: 100%;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.dropdown-container label {
+  font-size: 2.5rem;
+  color: rgb(86, 17, 113);
+}

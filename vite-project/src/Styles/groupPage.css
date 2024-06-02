@@ -1,0 +1,161 @@
+.img-container {
+  margin-top: 11.8rem;
+  padding: 3rem 5rem;
+  height: 45rem;
+  color: white;
+}
+
+.img-container-event {
+  margin-top: 11.8rem;
+  padding: 3rem 5rem;
+  height: 50rem;
+  color: white;
+}
+
+.member-hover:hover {
+  cursor: pointer;
+}
+.banned-group {
+  margin-top: 32rem;
+  margin-bottom: 30.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-container {
+  margin-top: 12rem;
+  padding: 1rem 5rem;
+  height: 40rem;
+}
+
+.requests-header {
+  color: rgb(86, 17, 113);
+  font-weight: 700;
+}
+.event-container {
+  padding: 1rem 5rem;
+  margin-top: 25rem;
+}
+.no-req-found {
+  font-size: 2rem;
+  color: rgb(86, 17, 113);
+  text-align: center;
+  width: 100%;
+  padding: 4rem;
+  font-weight: 400;
+}
+.top-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.top-part1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.top-part h1 {
+  font-size: 45px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+  margin-left: 3rem;
+}
+
+.events-container {
+  padding: 10rem 15rem 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7rem;
+}
+
+.event-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10rem;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.info-container p {
+  font-size: 2.5rem;
+  margin: 0;
+  width: 100rem;
+}
+
+.admin-buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+.profile-image {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 100rem;
+  object-fit: cover;
+  border: 5px solid #ffedff;
+}
+.profile-image-info-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 20rem;
+  width: 95%;
+}
+
+.profile-image-info-container h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: rgb(86, 17, 113);
+}
+.profile-image-info-container p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #242424;
+}
+
+.event-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(5px) brightness(0.5);
+  z-index: -1;
+}
+
+.no-events-found {
+  font-size: 4rem;
+  color: rgb(86, 17, 113);
+  text-align: center;
+  width: 100%;
+  padding: 4rem;
+}
+.join-to-see {
+  font-size: 2rem;
+  color: rgb(86, 17, 113);
+  text-align: center;
+  width: 100%;
+  padding: 4rem;
+  font-weight: 400;
+}
+.group-number-label {
+  position: absolute;
+}

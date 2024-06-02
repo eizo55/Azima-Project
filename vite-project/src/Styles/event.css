@@ -1,0 +1,42 @@
+.event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  height: 50rem;
+  margin-top: 5rem;
+  padding-top: 2rem;
+}
+.event-single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 2rem;
+}
+
+.event:hover .event-image {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.event-label {
+  margin-top: 3rem;
+  max-width: 300px;
+  font-size: 32px;
+  height: fit-content;
+  color: rgb(86, 17, 113);
+}
+
+.event-image {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 20rem;
+  object-fit: cover;
+  transition: all 0.2s ease-in-out;
+}
