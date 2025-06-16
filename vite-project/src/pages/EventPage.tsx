@@ -2,7 +2,7 @@ import "swiper/css";
 import "swiper/swiper-bundle.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
 import Star from "../assets/star-icon.svg";
 import Box from "@mui/material/Box";

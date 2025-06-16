@@ -2,7 +2,6 @@ import "../Styles/settings.css";
 import OurButton from "./OurButton";
 import useGroup from "../hooks/groupHook";
 import { useParams, useNavigate } from "react-router-dom";
-import { GroupMembers } from "../data/types";
 
 const MemberInfo = ({
   username,
